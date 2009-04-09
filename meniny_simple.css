@@ -1,0 +1,78 @@
+body {
+  font-family: Verdana;
+  color: black;
+  background: white;
+}
+ 
+.box {
+  border: 1px solid #dcc;
+  width: 260px;
+}
+
+.widget {
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  width: 260px;
+  background: white;
+  display: table;
+}
+
+.widget * {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.sunday .datum {
+    background: #a22;
+}
+
+.sunday .meniny {
+    color: #600;
+    background: #fff0fd;
+}
+
+.datum {
+    font-size: 35px;
+    letter-spacing:-.2em;
+    width: 60px;
+    text-align: center;
+    background: #888;
+    color: white;
+    vertical-align: middle;
+}
+
+.meniny {
+    width: 175px;
+    padding-left: 10px;
+}
+
+.meninySmall {
+    font-size: 16px;
+}
+
+.meninyLarge {
+    font-size: 20px;
+}
+
+
+.box .widget {
+  margin-bottom: 0;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+a:hover {
+    background: #ddd;
+}
+
+a {
+    text-decoration: none;
+    width: 20px;
+    text-align: center;
+}
